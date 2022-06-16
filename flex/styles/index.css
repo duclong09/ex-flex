@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    margin-left: -30px;
+}
+
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: calc(25% - 30px);
+    margin-left: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.card-top {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.card-title {
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.card-user {
+    display: flex;
+    align-items: center;
+}
+
+.card-user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 100rem;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.card-user-info {
+    padding-left: 20px;
+    flex: 1;
+}
+
+.card-user-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.card-user-name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.card-user-top i {
+    padding-left: 5px;
+    color: #20e3b2;
+}
+
+.card-user-game {
+    color: #9999;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.card-bottom {
+    padding: 25px;
+    border-top: 1px solid #eeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-live {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.card-live span {
+    margin-left: 10px;
+}
+
+.card-watching {
+    font-size: 13px;
+    color: #9999;
+    font-weight: 300;
+}
+
+.card-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.card-bottom {
+    margin-top: auto;
+    flex-shrink: 0;
+}
+
+
+.card-user {
+    margin-top: auto;
+}
